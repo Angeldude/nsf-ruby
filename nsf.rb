@@ -7,7 +7,8 @@ end
 
 def music filename
   temporary = File.binread(filename)
-  temporary.unpack("@128H*")[0].chars
+  temporary.unpack("@128B*")[0].chars
+  #use H for hex
 end
 
 def display_header raw_data

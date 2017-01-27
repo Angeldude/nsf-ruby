@@ -47,6 +47,6 @@ end
 
 begin
   main input
-rescue
+rescue NoMethodError
   puts "Usage: ruby nsf.rb <FILE.NSF>"
 end

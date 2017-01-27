@@ -44,5 +44,9 @@ def main file
     puts header(file[0])[9]
   end
 end
-  
-main input
+
+begin
+  main input
+rescue
+  puts "Usage: ruby nsf.rb <FILE.NSF>"
+end

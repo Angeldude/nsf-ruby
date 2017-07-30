@@ -49,5 +49,5 @@ end
 begin
   main input
 rescue NoMethodError
-  puts "Usage: ruby nsf.rb <FILE.NSF>"
+  puts "Usage: ruby nsf.rb [-m][-h]<FILE.NSF>"
 end
